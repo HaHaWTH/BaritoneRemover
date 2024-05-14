@@ -41,6 +41,9 @@ dependencies {
 
 shadowJar {
     relocate 'io.github.retrooper.packetevents', 'me.chrommob.baritoneremover.libs.packetevents'
+    relocate 'io.github.retrooper.packetevents', 'me.chrommob.baritoneremover.libs.packeteventsimpl'
+    relocate 'com.google.gson', 'me.chrommob.baritoneremover.libs.gson'
+    relocate 'co.aikar', 'me.chrommob.baritoneremover.libs.aikar'
     relocate 'org.bstats', 'me.chrommob.baritoneremover.libs.bstats'
     relocate 'net.kyori', 'me.chrommob.baritoneremover.libs.kyori'
 }
